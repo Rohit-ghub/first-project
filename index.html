@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Informatics College</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Keywords" content="College, Pokhara, IT College, Lions Marga, college in pokhara, nepalIT">
+    <meta name="author" content="Bishworaj Poudel">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="javascript/js.js="></script>
+    <script src="javascript/login.js"></script>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial
+        }
+        
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+        
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+        
+        .active {
+            background-color: #04AA6D;
+            color: white;
+        }
+        
+        .topnav .icon {
+            display: none;
+        }
+        
+        .dropdown {
+            float: left;
+            overflow: hidden;
+        }
+        
+        .dropdown .dropbtn {
+            font-size: 17px;
+            border: none;
+            outline: none;
+            color: white;
+            padding: 14px 16px;
+            background-color: inherit;
+            font-family: inherit;
+            margin: 0;
+        }
+        
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        
+        .dropdown-content a {
+            float: none;
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+        
+        .topnav a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #555;
+            color: white;
+        }
+        
+        .dropdown-content a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav a:not(:first-child),
+            .dropdown .dropbtn {
+                display: none;
+            }
+            .topnav a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .topnav.responsive {
+                position: relative;
+            }
+            .topnav.responsive .icon {
+                position: absolute;
+                right: 0;
+                top: 0;
+            }
+            .topnav.responsive a {
+                float: none;
+                display: block;
+                text-align: left;
+            }
+            .topnav.responsive .dropdown {
+                float: none;
+            }
+            .topnav.responsive .dropdown-content {
+                position: relative;
+            }
+            .topnav.responsive .dropdown .dropbtn {
+                display: block;
+                width: 100%;
+                text-align: left;
+            }
+        }
+        
+        .container {
+            width: 25px;
+            height: 450px;
+            display: inline-block;
+        }
+        
+        .container span {
+            display: inline-block;
+            border: 0;
+            width: 40%;
+        }
+        
+        .small-box {
+            height: 80%;
+            height: 80%;
+            background: #1c87c9;
+            display: inline-block;
+            vertical-align: top;
+        }
+        
+        .big-box {
+            height: 100%;
+            background-color: rgb(0, 0, 60);
+            display: inline-block;
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<head>
+
+    <script type="text/javascript">
+        window.addEventListener("load", start, false);
+
+        function start() {
+            document.getElementById("picture").addEventListener("mouseover", over, false);
+            document.getElementById("picture").addEventListener("mouseout", out, false);
+        }
+
+        function over(e) {
+            document.getElementById("picture").setAttribute("src", "college wallpaper.jpg");
+        }
+
+        function out(e) {
+            e.target.setAttribute("src", "college.jpg");
+        }
+    </script>
+
+</head>
+
+<body>
+
+    <img src="college.jpg" id="picture" alt="Loading Image">
+
+</body>
+
+
+<body>
+
+    <center>
+        <p id="move"> UG COLLEGE </p>
+    </center>
+
+</body>
+
+<script type="text/javascript">
+    function start() {
+        document.getElementById("move").addEventListener("mousemove", moveone, false);
+        document.getElementById("move").addEventListener("mouseout", leaveone, false);
+    }
+
+    function moveone() {
+        document.getElementById("move").innerHTML = "Informatics College";
+    }
+
+    function leaveone() {
+        document.getElementById("move").innerHTML = " UG COLLEGE ";
+    }
+
+    window.addEventListener("load", start, false);
+</script>
+
+<body class="body">
+
+    <p id="para"> click me </p>
+    <script>
+        document.getElementById("para").onclick = function() {
+            fun()
+        };
+
+        function fun() {
+            document.getElementById("para").innerHTML = "Welcome to INFORMATICS official website...";
+            document.getElementById("para").style.color = "blue";
+            document.getElementById("para").style.backgroundColor = "black";
+            document.getElementById("para").style.fontSize = "25px";
+            document.getElementById("para").style.border = "4px solid red";
+        }
+    </script>
+    <a href="http://localhost:5000">
+        <header class="mainheader">
+            <img src="images/logo.png">
+            <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="course.html">Course</a>
+                <a href="login.html">For admission</a>
+                <div class="dropdown">
+                    <button class="dropbtn"> Name of Principals
+      <i class="fa fa-caret-down"></i>
+	  
+    </button>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/Suganthi">Dr.L.Suganthi</a>
+                        <a href="https://www.facebook.com/Meenakshisundaram">Dr.S.Meenakshisundaram</a>
+                        <a href="https://www.facebook.com/Ranee Maria Leonie Vedamuthu">Dr.Ranee Maria Leonie Vedamuthu</a>
+                        <a href="https://www.facebook.com/Ranee Thyagarajan">Dr.T.Thyagarajan</a>
+                    </div>
+                </div>
+                <a href="contact.html">Contact Us</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+            </div>
+            </nav>
+        </header>
+
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+        </head>
+        <br>
+        <div class="slideshow-container">
+
+            <div class="iambrpslides fade">
+                <div class="numbertext">01 / 03</div>
+                <img src="./images/a.jpg">
+            </div>
+
+            <div class="iambrpslides fade">
+                <div class="numbertext">02 / 03</div>
+                <img src="./images/b.jpg">
+            </div>
+
+            <div class="iambrpslides fade">
+                <div class="numbertext">03 / 03</div>
+                <img src="./images/c.jpg">
+            </div>
+
+        </div>
+
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("iambrpslides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2500); // This is for Changing image every 2.5 seconds
+            }
+        </script>
+        <br>
+
+        <script type="text/javascript">
+            document.title = "Home";
+        </script>
+
+        <body background=" https://www.collegesearch.in/upload/exam/document/190320043825_Kongu-Engineering-College.jpg" style="background-repeat:no-repeat;background-size:100% 100%">
+
+
+            <script src="scripts/slider.js"></script>
+            <div class="mainContent">
+                <div class="Content">
+                    <article class="topContent">
+                        <header>
+                            <h3><a href="#" title="My First Post">ICP </a> </h3>
+                        </header>
+                        <footer>
+                            <p class="post-info">This post is written by Rohit</p>
+                        </footer>
+                        <content>
+                            <p>Informatics College Pokhara, Nepal Informatics College Pokhara is an autonomous Private Institution dedicated to maintain excellent academic performance. Since its establishment in 2011, Informatics College Pokhara has been
+                                actively working as a regular franchisee of Informatics Education Limited, Singapore. Informatics College Pokhara has an established track record of Academic excellence, within the Networks of Informatics – Globally. We
+                                are supported by a team of dedicated Professors, Lecturers, Counselors, meticulous management with a caring H.R. support service. Informatics College Pokhara is today producing competitive Gra duates, creating an enviable
+                                position among employers and Universities both Nationally and Internationally. Informatics College Pokhara, today can proudly boast of having produced sustainable and marketable graduates in various IT and Business & Management
+                                programs.
+
+
+                            </p>
+                        </content>
+                    </article>
+
+                    <article class="bottomContent">
+                        <header>
+                            <h3><a href="#" title="Pathway Programme">Pathway Programme</a> </h3>
+                        </header>
+                        <footer>
+                            <p class="post-info">This post is written by Rohit</p>
+                        </footer>
+                        <content>
+                            <p>We plan for quality higher education programmes with complete progression pathway for you – from Foundation program up to Postgraduate degree level by the universities in Australia and United Kingdom. Our distinguished Academic
+                                and Examination Board also sets the academic and examination standards of Informatics Academy’s programmes. We make learning exclusive for you. We know everyone has different learning needs and lifestyles. We have learning
+                                modes ranging from traditional classroom learning, to e-learning and a combination of both to accommodate to different learning patterns. Our holistic education programme places equal emphasis on both academic and non-academic,
+                                co-curricular activities. We strive to provide learning and support services, as well as a conducive environment for you to learn, live and develop into global thought leaders of tomorrow. We focus in giving you the best.
+
+                            </p>
+                        </content>
+                    </article>
+
+
+                </div>
+            </div>
+            <aside class="top-sidebar">
+                <article>
+                    <h3>Join us today!</h3>
+                    <p>Embark on an exciting learning journey with Informatics</p>
+                </article>
+            </aside>
+
+            <aside class="middle-sidebar">
+                <article>
+                    <h3>Your Boardroom Qualification</h3>
+                    <p>A Degree to stand out from the crowd…...</p>
+                </article>
+            </aside>
+
+            <aside class="buttom-sidebar">
+                <article>
+                    <h3>Be ahead of your peers</h3>
+                    <p>Fast track your education with Informatics</p>
+                </article>
+            </aside>
+
+
+
+
+            <table width="100%" cellspacing="2" cellpadding="2" border="9">
+
+                <tr>
+                    <th>NAME</th>
+                    <th>MARKS</th>
+                    <th>RESULT</th>
+                </tr>
+                <tr>
+                    <td align="center">Ganesh</td>
+                    <td align="center">100</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Bala</td>
+                    <td align="center">99</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Gopi</td>
+                    <td align="center">98</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Raja</td>
+                    <td align="center">98</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Ram</td>
+                    <td align="center">98</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Rohit</td>
+                    <td align="center">98</td>
+                    <td align="center">pass</td>
+                </tr>
+                <tr>
+                    <td align="center">Vishnu</td>
+                    <td align="center">98</td>
+                    <td align="center">pass</td>
+                </tr>
+            </table><br><br>
+
+
+            </script>
+
+
+            </script>
+            </head>
+
+            <body>
+
+
+
+
+
+                <footer class="mainFooter">
+                    <p>Copyright &copy <a href="https://www.facebook.com/IamBRP">Rohit</a> </p>
+                    <center>
+                        <a href="https://www.facebook.com/IamROHIT">Facebook</a>
+                        <a href="https://www.twitter.com/IamROHIT">Twitter</a>
+                        <a href="https://www.youtube.com/IamROHIT/">Youtube</a>
+                    </center>
+                </footer>
+
+            </body>
